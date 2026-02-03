@@ -1,0 +1,20 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.hrContacts {
+  .title { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .loading { display: flex; justify-content: center; padding: 40px 0; }
+  .contactsGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .contactCard {
+    background: "[theme:white, default: #ffffff]"; border-radius: 8px; padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; gap: 16px; align-items: flex-start;
+  }
+  .contactPhoto {
+    width: 64px; height: 64px; border-radius: 50%; background: "[theme:neutralLight, default: #edebe9]";
+    display: flex; align-items: center; justify-content: center; font-size: 24px;
+    color: "[theme:neutralSecondary, default: #605e5c]"; flex-shrink: 0;
+  }
+  .contactInfo { flex: 1; }
+  .contactName { font-weight: 600; color: "[theme:neutralPrimary, default: #323130]"; margin-bottom: 4px; }
+  .contactTitle { font-size: 13px; color: "[theme:neutralSecondary, default: #605e5c]"; margin-bottom: 2px; }
+  .contactDepartment { font-size: 12px; color: "[theme:neutralTertiary, default: #a19f9d]"; margin-bottom: 8px; }
+  .contactDetail { font-size: 12px; color: "[theme:themePrimary, default: #0078d4]"; display: flex; align-items: center; gap: 6px; margin-bottom: 4px; text-decoration: none; &:hover { text-decoration: underline; } }
+}

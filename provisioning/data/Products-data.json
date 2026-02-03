@@ -1,0 +1,122 @@
+[
+  {
+    "ProductName": "BRED Savings Account",
+    "Description": "<p>A flexible savings account designed for individuals who want to grow their money with competitive interest rates.</p><p>Enjoy easy access to your funds while earning attractive returns on your savings.</p>",
+    "ShortDescription": "Flexible savings with competitive interest rates up to 5% p.a.",
+    "Category": "Personal Banking",
+    "Features": "<ul><li>Interest rate up to 5% p.a.</li><li>No minimum balance requirement</li><li>Free ATM card</li><li>Mobile banking access</li><li>Monthly statements</li></ul>",
+    "IsActive": true,
+    "IsFeatured": true,
+    "Order": 1
+  },
+  {
+    "ProductName": "BRED Current Account",
+    "Description": "<p>A versatile current account for your everyday banking needs. Perfect for managing daily transactions with ease and convenience.</p>",
+    "ShortDescription": "Everyday banking for seamless daily transactions.",
+    "Category": "Personal Banking",
+    "Features": "<ul><li>Unlimited transactions</li><li>Free checkbook</li><li>Online banking</li><li>Overdraft facility available</li><li>Direct debit and standing orders</li></ul>",
+    "IsActive": true,
+    "IsFeatured": false,
+    "Order": 2
+  },
+  {
+    "ProductName": "BRED Fixed Deposit",
+    "Description": "<p>Secure your savings with guaranteed returns. Our fixed deposit accounts offer attractive interest rates for terms ranging from 1 month to 36 months.</p>",
+    "ShortDescription": "Guaranteed returns with flexible terms from 1-36 months.",
+    "Category": "Personal Banking",
+    "Features": "<ul><li>Competitive fixed rates</li><li>Terms from 1 to 36 months</li><li>Auto-renewal option</li><li>Minimum deposit USD 500</li><li>Interest paid at maturity</li></ul>",
+    "IsActive": true,
+    "IsFeatured": true,
+    "Order": 3
+  },
+  {
+    "ProductName": "BRED Business Account",
+    "Description": "<p>Comprehensive banking solutions tailored for businesses of all sizes. Manage your business finances efficiently with our dedicated business account.</p>",
+    "ShortDescription": "Complete banking solutions for your business needs.",
+    "Category": "Business Banking",
+    "Features": "<ul><li>Dedicated relationship manager</li><li>Trade finance services</li><li>Payroll services</li><li>Business internet banking</li><li>Cash management solutions</li></ul>",
+    "IsActive": true,
+    "IsFeatured": true,
+    "Order": 4
+  },
+  {
+    "ProductName": "BRED SME Loan",
+    "Description": "<p>Financing solutions designed specifically for Small and Medium Enterprises. Grow your business with flexible loan terms and competitive rates.</p>",
+    "ShortDescription": "Flexible financing to help your business grow.",
+    "Category": "Loans",
+    "Features": "<ul><li>Loan amounts up to USD 500,000</li><li>Flexible repayment terms</li><li>Competitive interest rates</li><li>Quick approval process</li><li>Collateral and non-collateral options</li></ul>",
+    "IsActive": true,
+    "IsFeatured": true,
+    "Order": 5
+  },
+  {
+    "ProductName": "BRED Home Loan",
+    "Description": "<p>Make your dream home a reality with our affordable home loan. Enjoy competitive rates and flexible repayment options up to 20 years.</p>",
+    "ShortDescription": "Affordable home financing with terms up to 20 years.",
+    "Category": "Loans",
+    "Features": "<ul><li>Up to 70% financing</li><li>Terms up to 20 years</li><li>Fixed and variable rates</li><li>No early repayment penalty</li><li>Free property valuation</li></ul>",
+    "IsActive": true,
+    "IsFeatured": false,
+    "Order": 6
+  },
+  {
+    "ProductName": "BRED Personal Loan",
+    "Description": "<p>Quick access to funds for your personal needs. Whether it's education, medical expenses, or home improvement, we've got you covered.</p>",
+    "ShortDescription": "Quick personal financing for any purpose.",
+    "Category": "Loans",
+    "Features": "<ul><li>Loan up to USD 30,000</li><li>Terms up to 5 years</li><li>Fast approval within 48 hours</li><li>Minimal documentation</li><li>No collateral required</li></ul>",
+    "IsActive": true,
+    "IsFeatured": false,
+    "Order": 7
+  },
+  {
+    "ProductName": "BRED Visa Platinum Card",
+    "Description": "<p>Experience premium banking with our Visa Platinum Card. Enjoy exclusive benefits, rewards, and worldwide acceptance.</p>",
+    "ShortDescription": "Premium credit card with exclusive rewards and benefits.",
+    "Category": "Cards",
+    "Features": "<ul><li>1% cashback on all purchases</li><li>Airport lounge access</li><li>Travel insurance included</li><li>Concierge services</li><li>Zero liability protection</li></ul>",
+    "IsActive": true,
+    "IsFeatured": true,
+    "Order": 8
+  },
+  {
+    "ProductName": "BRED Visa Classic Card",
+    "Description": "<p>Your everyday companion for convenient and secure payments. Enjoy the freedom of cashless transactions nationwide and internationally.</p>",
+    "ShortDescription": "Convenient credit card for everyday purchases.",
+    "Category": "Cards",
+    "Features": "<ul><li>0.5% cashback</li><li>Installment payment plans</li><li>SMS alerts</li><li>Online purchase protection</li><li>Annual fee waiver</li></ul>",
+    "IsActive": true,
+    "IsFeatured": false,
+    "Order": 9
+  },
+  {
+    "ProductName": "BRED Debit Card",
+    "Description": "<p>Access your funds anytime, anywhere with our Visa Debit Card. Shop online, pay at merchants, and withdraw cash at ATMs worldwide.</p>",
+    "ShortDescription": "Instant access to your account funds worldwide.",
+    "Category": "Cards",
+    "Features": "<ul><li>Free card issuance</li><li>ATM access worldwide</li><li>Contactless payments</li><li>Real-time SMS notifications</li><li>Mobile wallet compatible</li></ul>",
+    "IsActive": true,
+    "IsFeatured": false,
+    "Order": 10
+  },
+  {
+    "ProductName": "BRED Mobile Banking",
+    "Description": "<p>Bank on the go with our secure and user-friendly mobile banking app. Transfer funds, pay bills, and manage your accounts anytime, anywhere.</p>",
+    "ShortDescription": "Full banking services in your pocket.",
+    "Category": "Digital Banking",
+    "Features": "<ul><li>24/7 account access</li><li>Fund transfers</li><li>Bill payments</li><li>QR code payments</li><li>Biometric login</li><li>Account statements</li></ul>",
+    "IsActive": true,
+    "IsFeatured": true,
+    "Order": 11
+  },
+  {
+    "ProductName": "BRED Internet Banking",
+    "Description": "<p>Manage your finances from your desktop with our secure internet banking platform. Access all banking services without visiting a branch.</p>",
+    "ShortDescription": "Complete banking services from your computer.",
+    "Category": "Digital Banking",
+    "Features": "<ul><li>Account management</li><li>Bulk payments</li><li>Salary disbursement</li><li>Trade finance</li><li>Detailed transaction history</li></ul>",
+    "IsActive": true,
+    "IsFeatured": false,
+    "Order": 12
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "listName": "HR Contacts",
+  "description": "HR Department contacts for Bred Bank Cambodia",
+  "template": "GenericList",
+  "columns": [
+    { "name": "FullName", "type": "Text", "required": true },
+    { "name": "JobTitle", "type": "Text", "required": true },
+    { "name": "Department", "type": "Choice", "required": true, "choices": ["HR Management", "Recruitment", "Payroll & Benefits", "Training & Development", "Employee Relations"] },
+    { "name": "Email", "type": "Text", "required": true },
+    { "name": "Phone", "type": "Text", "required": false },
+    { "name": "Extension", "type": "Text", "required": false },
+    { "name": "PhotoUrl", "type": "URL", "required": false },
+    { "name": "Order", "type": "Number", "required": false, "default": 0 },
+    { "name": "IsActive", "type": "Boolean", "required": false, "default": true }
+  ],
+  "views": [
+    { "name": "All Contacts", "orderBy": "Order" },
+    { "name": "By Department", "groupBy": "Department" }
+  ]
+}

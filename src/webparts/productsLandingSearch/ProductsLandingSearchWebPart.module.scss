@@ -1,0 +1,26 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.productsLandingSearch {
+  .container { max-width: 800px; margin: 0 auto; text-align: center; padding: 48px 24px; }
+  .title { font-size: 32px; font-weight: 600; margin-bottom: 24px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .searchBox {
+    display: flex; max-width: 600px; margin: 0 auto;
+    background: "[theme:white, default: #ffffff]"; border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); overflow: hidden;
+  }
+  .searchInput {
+    flex: 1; padding: 16px 20px; border: none; font-size: 16px;
+    &:focus { outline: none; }
+  }
+  .searchButton {
+    padding: 16px 24px; background: "[theme:themePrimary, default: #0078d4]"; border: none;
+    color: white; cursor: pointer; font-size: 16px;
+    &:hover { background: "[theme:themeDark, default: #005a9e]"; }
+  }
+  .categories { display: flex; justify-content: center; gap: 16px; margin-top: 32px; flex-wrap: wrap; }
+  .categoryChip {
+    padding: 8px 16px; background: "[theme:neutralLighter, default: #f3f2f1]"; border-radius: 20px;
+    font-size: 14px; color: "[theme:neutralPrimary, default: #323130]"; cursor: pointer;
+    border: none; transition: all 0.2s;
+    &:hover { background: "[theme:themeLighter, default: #deecf9]"; color: "[theme:themePrimary, default: #0078d4]"; }
+  }
+}

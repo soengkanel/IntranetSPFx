@@ -1,0 +1,72 @@
+[
+  {
+    "Question": "How do I apply for annual leave?",
+    "Answer": "<p>To apply for annual leave, please follow these steps:</p><ol><li>Log in to the HR Portal</li><li>Navigate to Leave Management</li><li>Click 'New Leave Request'</li><li>Select 'Annual Leave' and enter your dates</li><li>Submit for manager approval</li></ol><p>Leave requests should be submitted at least 3 working days in advance.</p>",
+    "Category": "HR",
+    "Order": 1,
+    "IsActive": true
+  },
+  {
+    "Question": "What are Bred Bank Cambodia's working hours?",
+    "Answer": "<p>Our standard working hours are:</p><ul><li><strong>Head Office:</strong> Monday to Friday, 8:00 AM - 5:00 PM</li><li><strong>Branches:</strong> Monday to Friday, 8:00 AM - 4:00 PM; Saturday 8:00 AM - 12:00 PM</li></ul><p>Lunch break is from 12:00 PM to 1:00 PM.</p>",
+    "Category": "General",
+    "Order": 2,
+    "IsActive": true
+  },
+  {
+    "Question": "How do I contact IT Support?",
+    "Answer": "<p>For IT support, you can:</p><ul><li>Call the IT Helpdesk: Extension 1234</li><li>Email: itsupport@bredbank.com.kh</li><li>Submit a ticket via the IT Service Desk portal</li></ul><p>Support hours: Monday to Friday, 7:30 AM - 6:00 PM</p>",
+    "Category": "IT",
+    "Order": 3,
+    "IsActive": true
+  },
+  {
+    "Question": "How do I submit an expense claim?",
+    "Answer": "<p>To submit an expense claim:</p><ol><li>Log in to the Finance Portal</li><li>Go to Expense Claims section</li><li>Click 'New Claim'</li><li>Fill in the details and attach receipts</li><li>Submit for approval</li></ol><p>Claims must be submitted within 30 days of the expense date.</p>",
+    "Category": "Finance",
+    "Order": 4,
+    "IsActive": true
+  },
+  {
+    "Question": "Where can I find company policies and procedures?",
+    "Answer": "<p>All company policies and procedures are available in the following locations:</p><ul><li>Intranet Policy Library</li><li>HR Portal - Documents section</li><li>SharePoint Document Center</li></ul><p>Key policies include: Code of Conduct, Information Security Policy, Anti-Money Laundering Policy, and Employee Handbook.</p>",
+    "Category": "General",
+    "Order": 5,
+    "IsActive": true
+  },
+  {
+    "Question": "How do I reset my password?",
+    "Answer": "<p>To reset your password:</p><ol><li>Go to the password reset portal: password.bredbank.com.kh</li><li>Enter your employee ID</li><li>Follow the verification steps</li><li>Create a new password following the security requirements</li></ol><p>If you're locked out, contact IT Support at extension 1234.</p>",
+    "Category": "IT",
+    "Order": 6,
+    "IsActive": true
+  },
+  {
+    "Question": "What training programs are available?",
+    "Answer": "<p>Bred Bank Cambodia offers various training programs:</p><ul><li><strong>Mandatory:</strong> AML/CFT, Compliance, Information Security</li><li><strong>Professional Development:</strong> Leadership, Communication, Technical Skills</li><li><strong>Product Training:</strong> New product launches, system updates</li></ul><p>Access the Learning Portal to view available courses and enroll.</p>",
+    "Category": "HR",
+    "Order": 7,
+    "IsActive": true
+  },
+  {
+    "Question": "How do I update my personal information?",
+    "Answer": "<p>To update your personal information:</p><ol><li>Log in to the HR Portal</li><li>Go to 'My Profile'</li><li>Click 'Edit Personal Information'</li><li>Update the required fields</li><li>Submit for HR verification</li></ol><p>Some changes may require supporting documents.</p>",
+    "Category": "HR",
+    "Order": 8,
+    "IsActive": true
+  },
+  {
+    "Question": "What is the process for requesting business cards?",
+    "Answer": "<p>To request business cards:</p><ol><li>Fill out the Business Card Request Form (available on Intranet)</li><li>Get approval from your Department Head</li><li>Submit to Administration Department</li></ol><p>Processing time is approximately 5-7 working days.</p>",
+    "Category": "Operations",
+    "Order": 9,
+    "IsActive": true
+  },
+  {
+    "Question": "How do I access the Core Banking System remotely?",
+    "Answer": "<p>Remote access to core banking systems requires:</p><ol><li>VPN connection (request from IT if not set up)</li><li>Two-factor authentication enabled</li><li>Approved remote work arrangement</li></ol><p>Contact IT Support for VPN setup and troubleshooting.</p>",
+    "Category": "IT",
+    "Order": 10,
+    "IsActive": true
+  }
+]

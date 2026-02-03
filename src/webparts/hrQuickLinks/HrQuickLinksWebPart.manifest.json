@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b8c9d0e1-f2a3-4567-1234-678901234567",
+  "alias": "HrQuickLinksWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "40b93244-cf84-4e5c-8f22-5b1a89fb3c7e",
+    "group": { "default": "REDBRIDGE" },
+    "title": { "default": "HR Quick Links" },
+    "description": { "default": "HR-related shortcuts and links" },
+    "officeFabricIconFontName": "People",
+    "properties": { "title": "HR Quick Links" }
+  }]
+}

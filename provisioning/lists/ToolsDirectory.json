@@ -1,0 +1,19 @@
+{
+  "listName": "Tools Directory",
+  "description": "Internal tools and applications directory for Bred Bank Cambodia",
+  "template": "GenericList",
+  "columns": [
+    { "name": "ToolName", "type": "Text", "required": true },
+    { "name": "Description", "type": "Note", "required": true, "richText": false },
+    { "name": "URL", "type": "URL", "required": true },
+    { "name": "Category", "type": "Choice", "required": true, "choices": ["Core Banking", "HR Systems", "IT Support", "Finance", "Communication", "Documents", "Learning", "Reporting"] },
+    { "name": "IconName", "type": "Text", "required": false, "description": "Fluent UI icon name" },
+    { "name": "Order", "type": "Number", "required": false, "default": 0 },
+    { "name": "IsActive", "type": "Boolean", "required": false, "default": true },
+    { "name": "AccessLevel", "type": "Choice", "required": false, "choices": ["All Staff", "Management", "IT Only", "HR Only", "Finance Only"] }
+  ],
+  "views": [
+    { "name": "All Tools", "orderBy": "Order" },
+    { "name": "By Category", "groupBy": "Category" }
+  ]
+}

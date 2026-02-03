@@ -1,0 +1,122 @@
+[
+  {
+    "ToolName": "Core Banking System (T24)",
+    "Description": "Main banking operations platform for all transactions, customer management, and account operations.",
+    "URL": "https://corebanking.bredbank.com.kh",
+    "Category": "Core Banking",
+    "IconName": "Bank",
+    "Order": 1,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "HR Portal",
+    "Description": "Employee self-service portal for leave requests, payslips, personal information, and HR services.",
+    "URL": "https://hrportal.bredbank.com.kh",
+    "Category": "HR Systems",
+    "IconName": "People",
+    "Order": 2,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "IT Service Desk",
+    "Description": "Submit and track IT support tickets, request new equipment, and access IT knowledge base.",
+    "URL": "https://itservicedesk.bredbank.com.kh",
+    "Category": "IT Support",
+    "IconName": "Headset",
+    "Order": 3,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "Microsoft 365",
+    "Description": "Access Outlook email, Teams, SharePoint, OneDrive, and Office applications.",
+    "URL": "https://www.office.com",
+    "Category": "Communication",
+    "IconName": "OfficeLogo",
+    "Order": 4,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "Document Management System",
+    "Description": "Central repository for policies, procedures, forms, and official documents.",
+    "URL": "https://docs.bredbank.com.kh",
+    "Category": "Documents",
+    "IconName": "DocumentSet",
+    "Order": 5,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "Learning Management System",
+    "Description": "Online training platform with mandatory courses, professional development, and certifications.",
+    "URL": "https://learning.bredbank.com.kh",
+    "Category": "Learning",
+    "IconName": "Education",
+    "Order": 6,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "Expense Management",
+    "Description": "Submit expense claims, travel requests, and reimbursements.",
+    "URL": "https://expense.bredbank.com.kh",
+    "Category": "Finance",
+    "IconName": "Money",
+    "Order": 7,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "Business Intelligence Portal",
+    "Description": "Access reports, dashboards, and analytics for business performance monitoring.",
+    "URL": "https://bi.bredbank.com.kh",
+    "Category": "Reporting",
+    "IconName": "BarChartVertical",
+    "Order": 8,
+    "IsActive": true,
+    "AccessLevel": "Management"
+  },
+  {
+    "ToolName": "Regulatory Reporting System",
+    "Description": "NBC and regulatory compliance reporting platform.",
+    "URL": "https://regulatory.bredbank.com.kh",
+    "Category": "Reporting",
+    "IconName": "ReportDocument",
+    "Order": 9,
+    "IsActive": true,
+    "AccessLevel": "Finance Only"
+  },
+  {
+    "ToolName": "AML Monitoring System",
+    "Description": "Anti-Money Laundering transaction monitoring and case management.",
+    "URL": "https://aml.bredbank.com.kh",
+    "Category": "Core Banking",
+    "IconName": "Shield",
+    "Order": 10,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "Customer Relationship Management",
+    "Description": "CRM system for customer interactions, sales tracking, and relationship management.",
+    "URL": "https://crm.bredbank.com.kh",
+    "Category": "Core Banking",
+    "IconName": "ContactCard",
+    "Order": 11,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  },
+  {
+    "ToolName": "Branch Network Manager",
+    "Description": "Branch operations, cash management, and network administration.",
+    "URL": "https://branchnet.bredbank.com.kh",
+    "Category": "Core Banking",
+    "IconName": "CityNext",
+    "Order": 12,
+    "IsActive": true,
+    "AccessLevel": "All Staff"
+  }
+]

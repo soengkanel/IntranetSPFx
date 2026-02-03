@@ -1,0 +1,18 @@
+{
+  "listName": "Suggestions",
+  "description": "Employee suggestions and feedback for Bred Bank Cambodia",
+  "template": "GenericList",
+  "columns": [
+    { "name": "SuggestionTitle", "type": "Text", "required": true, "maxLength": 255 },
+    { "name": "Description", "type": "Note", "required": true, "richText": false },
+    { "name": "SubmittedBy", "type": "User", "required": false },
+    { "name": "SubmittedDate", "type": "DateTime", "required": false, "default": "[Today]" },
+    { "name": "Status", "type": "Choice", "required": true, "choices": ["Pending", "Under Review", "Implemented", "Rejected"], "default": "Pending" },
+    { "name": "AdminComments", "type": "Note", "required": false },
+    { "name": "Category", "type": "Choice", "required": false, "choices": ["Process Improvement", "Technology", "Workplace", "Benefits", "Training", "Other"] }
+  ],
+  "views": [
+    { "name": "Pending Review", "query": "<Where><Eq><FieldRef Name='Status'/><Value Type='Choice'>Pending</Value></Eq></Where>" },
+    { "name": "All Suggestions", "orderBy": "SubmittedDate", "descending": true }
+  ]
+}

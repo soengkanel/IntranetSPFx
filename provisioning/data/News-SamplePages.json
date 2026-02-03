@@ -1,0 +1,101 @@
+{
+  "description": "Sample news articles to be created as SharePoint Site Pages",
+  "pages": [
+    {
+      "Title": "Welcome to the New Bred Bank Cambodia Intranet",
+      "Description": "We are excited to launch our new intranet portal, designed to improve communication and collaboration across all departments.",
+      "Category": "Announcement",
+      "IsHeadline": true,
+      "Author": "Corporate Communications",
+      "PublishDate": "2024-01-15"
+    },
+    {
+      "Title": "Q4 2023 Results: Strong Performance Across All Segments",
+      "Description": "Bred Bank Cambodia reports exceptional Q4 2023 results with 25% growth in deposits and 18% increase in loan portfolio.",
+      "Category": "Financial",
+      "IsHeadline": true,
+      "Author": "Finance Department",
+      "PublishDate": "2024-01-20"
+    },
+    {
+      "Title": "New Branch Opening in Siem Reap Province",
+      "Description": "We are proud to announce the opening of our newest branch in Siem Reap, expanding our network to serve customers in the tourism hub.",
+      "Category": "Announcement",
+      "IsHeadline": true,
+      "Author": "Corporate Communications",
+      "PublishDate": "2024-01-25"
+    },
+    {
+      "Title": "BRED Mobile Banking App 2.0 Launch",
+      "Description": "Introducing the all-new BRED Mobile Banking app with enhanced features including QR payments, biometric login, and real-time notifications.",
+      "Category": "Product",
+      "IsHeadline": true,
+      "Author": "Digital Banking Team",
+      "PublishDate": "2024-02-01"
+    },
+    {
+      "Title": "Annual Staff Appreciation Day 2024",
+      "Description": "Join us on February 15th for our Annual Staff Appreciation Day at Sokha Hotel. Celebrate our achievements together!",
+      "Category": "Event",
+      "IsHeadline": false,
+      "Author": "HR Department",
+      "PublishDate": "2024-02-05"
+    },
+    {
+      "Title": "CSR Initiative: Supporting Rural Education",
+      "Description": "Bred Bank Cambodia donates school supplies and library books to five rural schools in Kampong Cham province.",
+      "Category": "CSR",
+      "IsHeadline": false,
+      "Author": "CSR Committee",
+      "PublishDate": "2024-02-10"
+    },
+    {
+      "Title": "New Information Security Policy Updates",
+      "Description": "Important updates to our Information Security Policy. All staff must complete the mandatory training by February 28th.",
+      "Category": "Announcement",
+      "IsHeadline": false,
+      "Author": "IT Security",
+      "PublishDate": "2024-02-12"
+    },
+    {
+      "Title": "Bred Bank Wins Best Digital Banking Award",
+      "Description": "We are honored to receive the Best Digital Banking Award at the Cambodia Banking Awards 2024.",
+      "Category": "Announcement",
+      "IsHeadline": true,
+      "Author": "Corporate Communications",
+      "PublishDate": "2024-02-18"
+    },
+    {
+      "Title": "Leadership Development Program Applications Open",
+      "Description": "Applications are now open for the 2024 Leadership Development Program. Eligible staff can apply through the HR Portal.",
+      "Category": "HR",
+      "IsHeadline": false,
+      "Author": "Training & Development",
+      "PublishDate": "2024-02-20"
+    },
+    {
+      "Title": "Khmer New Year Holiday Schedule 2024",
+      "Description": "Official holiday schedule for Khmer New Year 2024. All branches will be closed from April 14-16, 2024.",
+      "Category": "Announcement",
+      "IsHeadline": false,
+      "Author": "HR Department",
+      "PublishDate": "2024-03-01"
+    },
+    {
+      "Title": "Partnership with Cambodia Post for Financial Inclusion",
+      "Description": "Bred Bank Cambodia partners with Cambodia Post to bring banking services to rural communities through postal outlets.",
+      "Category": "Announcement",
+      "IsHeadline": true,
+      "Author": "Corporate Communications",
+      "PublishDate": "2024-03-05"
+    },
+    {
+      "Title": "IT System Maintenance Notice - March 15",
+      "Description": "Scheduled maintenance for core banking systems on March 15, 2024 from 11 PM to 5 AM. Some services will be temporarily unavailable.",
+      "Category": "IT",
+      "IsHeadline": false,
+      "Author": "IT Operations",
+      "PublishDate": "2024-03-10"
+    }
+  ]
+}

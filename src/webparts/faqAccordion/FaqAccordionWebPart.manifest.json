@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e5f6a7b8-c9d0-1234-ef01-345678901234",
+  "alias": "FaqAccordionWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "40b93244-cf84-4e5c-8f22-5b1a89fb3c7e",
+    "group": { "default": "REDBRIDGE" },
+    "title": { "default": "FAQ Accordion" },
+    "description": { "default": "Expandable FAQ section" },
+    "officeFabricIconFontName": "QandA",
+    "properties": { "title": "Frequently Asked Questions", "numberOfItems": 10 }
+  }]
+}

@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "22.14.0",
+    "sdksVersions": {},
+    "version": "1.22.0-rc.0",
+    "libraryName": "sp-fx-demo-multi-web-parts",
+    "libraryId": "2ce72b1d-263a-4f8f-a5c1-49f64d2868a5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-fx-demo-multi-web-parts",
+    "solutionShortDescription": "sp-fx-demo-multi-web-parts description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

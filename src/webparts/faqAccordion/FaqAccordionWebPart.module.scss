@@ -1,0 +1,24 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.faqAccordion {
+  .container { max-width: 100%; }
+  .title { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .faqList { display: flex; flex-direction: column; gap: 8px; }
+  .faqItem {
+    background: "[theme:white, default: #ffffff]";
+    border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); overflow: hidden;
+  }
+  .faqQuestion {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 20px; cursor: pointer; font-weight: 600;
+    color: "[theme:neutralPrimary, default: #323130]";
+    background: transparent; border: none; width: 100%; text-align: left;
+    &:hover { background: "[theme:neutralLighter, default: #f3f2f1]"; }
+  }
+  .faqIcon { transition: transform 0.2s; &.expanded { transform: rotate(180deg); } }
+  .faqAnswer {
+    padding: 0 20px; max-height: 0; overflow: hidden; transition: all 0.3s;
+    color: "[theme:neutralSecondary, default: #605e5c]"; line-height: 1.6;
+    &.expanded { padding: 0 20px 16px; max-height: 500px; }
+  }
+}

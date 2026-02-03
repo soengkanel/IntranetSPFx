@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b4c5d6e7-f8a9-0123-7890-234567890123",
+  "alias": "NewsArchiveWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "40b93244-cf84-4e5c-8f22-5b1a89fb3c7e",
+    "group": { "default": "REDBRIDGE" },
+    "title": { "default": "News Archive" },
+    "description": { "default": "Historical news articles" },
+    "officeFabricIconFontName": "Archive",
+    "properties": { "title": "News Archive", "itemsPerPage": 10 }
+  }]
+}

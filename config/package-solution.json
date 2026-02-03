@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "client-bank-intranet-client-side-solution",
+    "id": "2ce72b1d-263a-4f8f-a5c1-49f64d2868a5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "REDBRIDGE",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.0-rc.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CLIENT BANK Cambodia Intranet SPFx Solution"
+      },
+      "longDescription": {
+        "default": "SharePoint Framework solution containing web parts and extensions for CLIENT BANK Cambodia intranet portal."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "CLIENT BANK Intranet Feature",
+        "description": "The feature that activates elements of the CLIENT BANK intranet solution.",
+        "id": "8e62fa59-a5b4-4d89-a098-86d3bd9ccae3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/client-bank-intranet.sppkg"
+  }
+}

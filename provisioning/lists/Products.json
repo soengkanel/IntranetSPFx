@@ -1,0 +1,22 @@
+{
+  "listName": "Products and Services",
+  "description": "Bred Bank Cambodia products and services catalog",
+  "template": "GenericList",
+  "columns": [
+    { "name": "ProductName", "type": "Text", "required": true },
+    { "name": "Description", "type": "Note", "required": true, "richText": true },
+    { "name": "ShortDescription", "type": "Note", "required": false, "richText": false },
+    { "name": "Category", "type": "Choice", "required": true, "choices": ["Personal Banking", "Business Banking", "Loans", "Cards", "Insurance", "Investments", "Digital Banking"] },
+    { "name": "Features", "type": "Note", "required": false, "richText": true },
+    { "name": "ImageUrl", "type": "URL", "required": false },
+    { "name": "DocumentUrl", "type": "URL", "required": false, "description": "Link to product brochure" },
+    { "name": "IsActive", "type": "Boolean", "required": false, "default": true },
+    { "name": "IsFeatured", "type": "Boolean", "required": false, "default": false },
+    { "name": "Order", "type": "Number", "required": false }
+  ],
+  "views": [
+    { "name": "All Products", "orderBy": "Category,Order" },
+    { "name": "Featured Products", "query": "<Where><Eq><FieldRef Name='IsFeatured'/><Value Type='Boolean'>1</Value></Eq></Where>" },
+    { "name": "By Category", "groupBy": "Category" }
+  ]
+}

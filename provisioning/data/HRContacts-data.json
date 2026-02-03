@@ -1,0 +1,102 @@
+[
+  {
+    "FullName": "Sophea Cheng",
+    "JobTitle": "Chief Human Resources Officer",
+    "Department": "HR Management",
+    "Email": "sophea.cheng@bredbank.com.kh",
+    "Phone": "+855 23 999 001",
+    "Extension": "2001",
+    "Order": 1,
+    "IsActive": true
+  },
+  {
+    "FullName": "Virak Sok",
+    "JobTitle": "HR Manager",
+    "Department": "HR Management",
+    "Email": "virak.sok@bredbank.com.kh",
+    "Phone": "+855 23 999 002",
+    "Extension": "2002",
+    "Order": 2,
+    "IsActive": true
+  },
+  {
+    "FullName": "Kunthea Meas",
+    "JobTitle": "Recruitment Manager",
+    "Department": "Recruitment",
+    "Email": "kunthea.meas@bredbank.com.kh",
+    "Phone": "+855 23 999 003",
+    "Extension": "2003",
+    "Order": 3,
+    "IsActive": true
+  },
+  {
+    "FullName": "Dara Pich",
+    "JobTitle": "Recruitment Specialist",
+    "Department": "Recruitment",
+    "Email": "dara.pich@bredbank.com.kh",
+    "Phone": "+855 23 999 004",
+    "Extension": "2004",
+    "Order": 4,
+    "IsActive": true
+  },
+  {
+    "FullName": "Channary Kim",
+    "JobTitle": "Payroll Manager",
+    "Department": "Payroll & Benefits",
+    "Email": "channary.kim@bredbank.com.kh",
+    "Phone": "+855 23 999 005",
+    "Extension": "2005",
+    "Order": 5,
+    "IsActive": true
+  },
+  {
+    "FullName": "Borey Tan",
+    "JobTitle": "Benefits Specialist",
+    "Department": "Payroll & Benefits",
+    "Email": "borey.tan@bredbank.com.kh",
+    "Phone": "+855 23 999 006",
+    "Extension": "2006",
+    "Order": 6,
+    "IsActive": true
+  },
+  {
+    "FullName": "Sothea Ly",
+    "JobTitle": "Training Manager",
+    "Department": "Training & Development",
+    "Email": "sothea.ly@bredbank.com.kh",
+    "Phone": "+855 23 999 007",
+    "Extension": "2007",
+    "Order": 7,
+    "IsActive": true
+  },
+  {
+    "FullName": "Makara Noun",
+    "JobTitle": "Learning & Development Specialist",
+    "Department": "Training & Development",
+    "Email": "makara.noun@bredbank.com.kh",
+    "Phone": "+855 23 999 008",
+    "Extension": "2008",
+    "Order": 8,
+    "IsActive": true
+  },
+  {
+    "FullName": "Theary Oum",
+    "JobTitle": "Employee Relations Manager",
+    "Department": "Employee Relations",
+    "Email": "theary.oum@bredbank.com.kh",
+    "Phone": "+855 23 999 009",
+    "Extension": "2009",
+    "Order": 9,
+    "IsActive": true
+  },
+  {
+    "FullName": "Ratana Keo",
+    "JobTitle": "HR Business Partner",
+    "Department": "Employee Relations",
+    "Email": "ratana.keo@bredbank.com.kh",
+    "Phone": "+855 23 999 010",
+    "Extension": "2010",
+    "Order": 10,
+    "IsActive": true
+  }
+]

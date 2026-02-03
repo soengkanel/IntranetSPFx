@@ -1,0 +1,14 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.hrQuickLinks {
+  .title { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .linksGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .linkItem {
+    display: flex; align-items: center; gap: 12px; padding: 16px;
+    background: "[theme:white, default: #ffffff]"; border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); text-decoration: none; color: inherit;
+    transition: all 0.2s;
+    &:hover { box-shadow: 0 2px 6px rgba(0,0,0,0.15); transform: translateY(-1px); }
+  }
+  .linkIcon { font-size: 24px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .linkText { font-weight: 600; color: "[theme:neutralPrimary, default: #323130]"; }
+}

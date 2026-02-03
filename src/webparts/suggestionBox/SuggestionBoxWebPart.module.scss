@@ -1,0 +1,29 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.suggestionBox {
+  .container { max-width: 600px; }
+  .title { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .form {
+    background: "[theme:white, default: #ffffff]";
+    padding: 24px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .field { margin-bottom: 16px; }
+  .label { display: block; font-weight: 600; margin-bottom: 8px; color: "[theme:neutralPrimary, default: #323130]"; }
+  .input, .textarea {
+    width: 100%; padding: 10px 12px; border: 1px solid "[theme:neutralTertiary, default: #a19f9d]";
+    border-radius: 4px; font-size: 14px;
+    &:focus { outline: none; border-color: "[theme:themePrimary, default: #0078d4]"; }
+  }
+  .textarea { min-height: 120px; resize: vertical; }
+  .submitButton {
+    background: "[theme:themePrimary, default: #0078d4]"; color: white;
+    border: none; padding: 12px 24px; border-radius: 4px; font-weight: 600;
+    cursor: pointer; transition: background 0.2s;
+    &:hover { background: "[theme:themeDark, default: #005a9e]"; }
+    &:disabled { background: "[theme:neutralTertiary, default: #a19f9d]"; cursor: not-allowed; }
+  }
+  .successMessage {
+    padding: 16px; background: "[theme:successBackground, default: #dff6dd]";
+    border-radius: 4px; color: "[theme:successText, default: #107c10]"; text-align: center;
+  }
+}

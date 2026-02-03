@@ -1,0 +1,18 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.topResources {
+  .container { max-width: 100%; }
+  .title { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .resourcesList { display: flex; flex-direction: column; gap: 8px; }
+  .resourceItem {
+    display: flex; align-items: center; gap: 12px; padding: 12px 16px;
+    background: "[theme:white, default: #ffffff]"; border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s;
+    text-decoration: none; color: inherit;
+    &:hover { box-shadow: 0 2px 6px rgba(0,0,0,0.15); background: "[theme:neutralLighter, default: #f3f2f1]"; }
+  }
+  .resourceIcon { font-size: 24px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .resourceInfo { flex: 1; }
+  .resourceTitle { font-size: 14px; font-weight: 600; color: "[theme:neutralPrimary, default: #323130]"; }
+  .resourceMeta { font-size: 12px; color: "[theme:neutralSecondary, default: #605e5c]"; }
+}

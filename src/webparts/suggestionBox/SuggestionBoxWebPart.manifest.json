@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "f6a7b8c9-d0e1-2345-f012-456789012345",
+  "alias": "SuggestionBoxWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "40b93244-cf84-4e5c-8f22-5b1a89fb3c7e",
+    "group": { "default": "REDBRIDGE" },
+    "title": { "default": "Suggestion Box" },
+    "description": { "default": "Submit feedback and suggestions" },
+    "officeFabricIconFontName": "Feedback",
+    "properties": { "title": "Suggestion Box", "listName": "Suggestions" }
+  }]
+}

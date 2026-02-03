@@ -1,0 +1,39 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.newsEventsCarousel {
+  .container { max-width: 100%; position: relative; }
+  .title { font-size: 24px; font-weight: 600; margin-bottom: 16px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .carousel { position: relative; overflow: hidden; border-radius: 8px; }
+  .slide {
+    display: none; position: relative; min-height: 300px;
+    background-size: cover; background-position: center;
+    background-color: "[theme:neutralLight, default: #edebe9]";
+    &.active { display: block; }
+  }
+  .slideOverlay {
+    position: absolute; bottom: 0; left: 0; right: 0; padding: 24px;
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+    color: white;
+  }
+  .slideTitle { font-size: 24px; font-weight: 600; margin-bottom: 8px; }
+  .slideDescription { font-size: 14px; opacity: 0.9; }
+  .slideMeta { font-size: 12px; opacity: 0.7; margin-top: 8px; }
+  .navButton {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    background: rgba(255,255,255,0.9); border: none; border-radius: 50%;
+    width: 40px; height: 40px; cursor: pointer; z-index: 10;
+    display: flex; align-items: center; justify-content: center;
+    &:hover { background: white; }
+    &.prev { left: 16px; }
+    &.next { right: 16px; }
+  }
+  .dots {
+    display: flex; justify-content: center; gap: 8px; margin-top: 16px;
+  }
+  .dot {
+    width: 10px; height: 10px; border-radius: 50%;
+    background: "[theme:neutralTertiary, default: #a19f9d]";
+    border: none; cursor: pointer;
+    &.active { background: "[theme:themePrimary, default: #0078d4]"; }
+  }
+}

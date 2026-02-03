@@ -1,0 +1,16 @@
+{
+  "listName": "FAQ",
+  "description": "Frequently Asked Questions for Bred Bank Cambodia Intranet",
+  "template": "GenericList",
+  "columns": [
+    { "name": "Question", "type": "Text", "required": true, "maxLength": 500 },
+    { "name": "Answer", "type": "Note", "required": true, "richText": true },
+    { "name": "Category", "type": "Choice", "required": true, "choices": ["General", "HR", "IT", "Finance", "Operations", "Products"] },
+    { "name": "Order", "type": "Number", "required": false, "default": 0 },
+    { "name": "IsActive", "type": "Boolean", "required": false, "default": true }
+  ],
+  "views": [
+    { "name": "Active FAQs", "query": "<Where><Eq><FieldRef Name='IsActive'/><Value Type='Boolean'>1</Value></Eq></Where>", "orderBy": "Order" },
+    { "name": "By Category", "groupBy": "Category", "orderBy": "Order" }
+  ]
+}

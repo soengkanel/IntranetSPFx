@@ -1,0 +1,110 @@
+[
+  {
+    "LinkTitle": "HR Portal",
+    "URL": "https://hrportal.bredbank.com.kh",
+    "IconName": "People",
+    "Category": "Home Page",
+    "Order": 1,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "IT Support",
+    "URL": "https://itservicedesk.bredbank.com.kh",
+    "IconName": "Headset",
+    "Category": "Home Page",
+    "Order": 2,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Leave Request",
+    "URL": "https://hrportal.bredbank.com.kh/leave",
+    "IconName": "Calendar",
+    "Category": "Home Page",
+    "Order": 3,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Expense Claims",
+    "URL": "https://expense.bredbank.com.kh",
+    "IconName": "Money",
+    "Category": "Home Page",
+    "Order": 4,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Training Portal",
+    "URL": "https://learning.bredbank.com.kh",
+    "IconName": "Education",
+    "Category": "Home Page",
+    "Order": 5,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Policies & Procedures",
+    "URL": "/sites/policies",
+    "IconName": "Library",
+    "Category": "Home Page",
+    "Order": 6,
+    "OpenInNewTab": false,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Employee Directory",
+    "URL": "/sites/intranet/directory",
+    "IconName": "ContactCard",
+    "Category": "Home Page",
+    "Order": 7,
+    "OpenInNewTab": false,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "News & Announcements",
+    "URL": "/sites/intranet/news",
+    "IconName": "News",
+    "Category": "Home Page",
+    "Order": 8,
+    "OpenInNewTab": false,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "My Payslip",
+    "URL": "https://hrportal.bredbank.com.kh/payslip",
+    "IconName": "Money",
+    "Category": "HR Page",
+    "Order": 1,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Benefits Information",
+    "URL": "https://hrportal.bredbank.com.kh/benefits",
+    "IconName": "Heart",
+    "Category": "HR Page",
+    "Order": 2,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Performance Review",
+    "URL": "https://hrportal.bredbank.com.kh/performance",
+    "IconName": "Trending12",
+    "Category": "HR Page",
+    "Order": 3,
+    "OpenInNewTab": true,
+    "IsActive": true
+  },
+  {
+    "LinkTitle": "Organization Chart",
+    "URL": "/sites/intranet/orgchart",
+    "IconName": "Org",
+    "Category": "HR Page",
+    "Order": 4,
+    "OpenInNewTab": false,
+    "IsActive": true
+  }
+]

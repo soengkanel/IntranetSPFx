@@ -1,0 +1,17 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.toolsDirectory {
+  .title { font-size: 24px; font-weight: 600; margin-bottom: 20px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .filterBar { margin-bottom: 20px; }
+  .searchInput { padding: 10px 16px; border: 1px solid "[theme:neutralTertiary, default: #a19f9d]"; border-radius: 4px; width: 100%; max-width: 400px; }
+  .toolsGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+  .toolCard {
+    background: "[theme:white, default: #ffffff]"; border-radius: 8px; padding: 24px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;
+    text-decoration: none; color: inherit; transition: all 0.2s; display: block;
+    &:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: translateY(-2px); }
+  }
+  .toolIcon { font-size: 40px; margin-bottom: 16px; color: "[theme:themePrimary, default: #0078d4]"; }
+  .toolName { font-weight: 600; color: "[theme:neutralPrimary, default: #323130]"; margin-bottom: 8px; }
+  .toolDescription { font-size: 13px; color: "[theme:neutralSecondary, default: #605e5c]"; }
+  .toolCategory { font-size: 11px; color: "[theme:themePrimary, default: #0078d4]"; margin-top: 12px; text-transform: uppercase; }
+}

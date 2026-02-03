@@ -1,0 +1,102 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.headlineNews {
+  color: var(--bodyText);
+  overflow: hidden;
+
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: "[theme:themePrimary, default: #0078d4]";
+  }
+
+  .newsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+
+  .newsCard {
+    background-color: "[theme:white, default: #ffffff]";
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  .newsImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background-color: "[theme:neutralLight, default: #edebe9]";
+  }
+
+  .newsContent {
+    padding: 16px;
+  }
+
+  .newsTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: "[theme:neutralPrimary, default: #323130]";
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        color: "[theme:themePrimary, default: #0078d4]";
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .newsDescription {
+    font-size: 14px;
+    color: "[theme:neutralSecondary, default: #605e5c]";
+    margin-bottom: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .newsMeta {
+    font-size: 12px;
+    color: "[theme:neutralTertiary, default: #a19f9d]";
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+  }
+
+  .error {
+    padding: 16px;
+    background-color: "[theme:errorBackground, default: #fde7e9]";
+    border-radius: 4px;
+    color: "[theme:errorText, default: #a80000]";
+  }
+
+  .empty {
+    padding: 32px;
+    text-align: center;
+    color: "[theme:neutralSecondary, default: #605e5c]";
+  }
+}

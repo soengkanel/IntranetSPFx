@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "headline-news-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/headlineNews/HeadlineNewsWebPart.js", "manifest": "./src/webparts/headlineNews/HeadlineNewsWebPart.manifest.json" }]
+    },
+    "quick-access-links-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/quickAccessLinks/QuickAccessLinksWebPart.js", "manifest": "./src/webparts/quickAccessLinks/QuickAccessLinksWebPart.manifest.json" }]
+    },
+    "top-resources-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/topResources/TopResourcesWebPart.js", "manifest": "./src/webparts/topResources/TopResourcesWebPart.manifest.json" }]
+    },
+    "news-events-carousel-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/newsEventsCarousel/NewsEventsCarouselWebPart.js", "manifest": "./src/webparts/newsEventsCarousel/NewsEventsCarouselWebPart.manifest.json" }]
+    },
+    "faq-accordion-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/faqAccordion/FaqAccordionWebPart.js", "manifest": "./src/webparts/faqAccordion/FaqAccordionWebPart.manifest.json" }]
+    },
+    "suggestion-box-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/suggestionBox/SuggestionBoxWebPart.js", "manifest": "./src/webparts/suggestionBox/SuggestionBoxWebPart.manifest.json" }]
+    },
+    "org-chart-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/orgChart/OrgChartWebPart.js", "manifest": "./src/webparts/orgChart/OrgChartWebPart.manifest.json" }]
+    },
+    "hr-quick-links-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/hrQuickLinks/HrQuickLinksWebPart.js", "manifest": "./src/webparts/hrQuickLinks/HrQuickLinksWebPart.manifest.json" }]
+    },
+    "hr-contacts-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/hrContacts/HrContactsWebPart.js", "manifest": "./src/webparts/hrContacts/HrContactsWebPart.manifest.json" }]
+    },
+    "products-landing-search-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/productsLandingSearch/ProductsLandingSearchWebPart.js", "manifest": "./src/webparts/productsLandingSearch/ProductsLandingSearchWebPart.manifest.json" }]
+    },
+    "products-list-filter-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/productsListFilter/ProductsListFilterWebPart.js", "manifest": "./src/webparts/productsListFilter/ProductsListFilterWebPart.manifest.json" }]
+    },
+    "product-detail-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/productDetail/ProductDetailWebPart.js", "manifest": "./src/webparts/productDetail/ProductDetailWebPart.manifest.json" }]
+    },
+    "tools-directory-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/toolsDirectory/ToolsDirectoryWebPart.js", "manifest": "./src/webparts/toolsDirectory/ToolsDirectoryWebPart.manifest.json" }]
+    },
+    "news-archive-web-part": {
+      "components": [{ "entrypoint": "./lib/webparts/newsArchive/NewsArchiveWebPart.js", "manifest": "./src/webparts/newsArchive/NewsArchiveWebPart.manifest.json" }]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HeadlineNewsWebPartStrings": "lib/webparts/headlineNews/loc/{locale}.js",
+    "QuickAccessLinksWebPartStrings": "lib/webparts/quickAccessLinks/loc/{locale}.js",
+    "TopResourcesWebPartStrings": "lib/webparts/topResources/loc/{locale}.js",
+    "NewsEventsCarouselWebPartStrings": "lib/webparts/newsEventsCarousel/loc/{locale}.js",
+    "FaqAccordionWebPartStrings": "lib/webparts/faqAccordion/loc/{locale}.js",
+    "SuggestionBoxWebPartStrings": "lib/webparts/suggestionBox/loc/{locale}.js",
+    "OrgChartWebPartStrings": "lib/webparts/orgChart/loc/{locale}.js",
+    "HrQuickLinksWebPartStrings": "lib/webparts/hrQuickLinks/loc/{locale}.js",
+    "HrContactsWebPartStrings": "lib/webparts/hrContacts/loc/{locale}.js",
+    "ProductsLandingSearchWebPartStrings": "lib/webparts/productsLandingSearch/loc/{locale}.js",
+    "ProductsListFilterWebPartStrings": "lib/webparts/productsListFilter/loc/{locale}.js",
+    "ProductDetailWebPartStrings": "lib/webparts/productDetail/loc/{locale}.js",
+    "ToolsDirectoryWebPartStrings": "lib/webparts/toolsDirectory/loc/{locale}.js",
+    "NewsArchiveWebPartStrings": "lib/webparts/newsArchive/loc/{locale}.js"
+  }
+}
