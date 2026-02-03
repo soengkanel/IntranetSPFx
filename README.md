@@ -36,9 +36,7 @@ SharePoint Framework solution for CLIENT BANK Cambodia intranet portal.
 ### Products & Services
 | Web Part | Description |
 |----------|-------------|
-| Products Landing Search | Product search interface |
-| Products List & Filter | Filterable product catalog |
-| Product Detail | Single product view |
+| Products & Services | Product catalog with search, accordion categories, and detail view |
 
 ### Tools & News
 | Web Part | Description |
@@ -232,9 +230,7 @@ src/
 │   ├── orgChart/              # Organization chart web part
 │   ├── hrQuickLinks/          # HR quick links web part
 │   ├── hrContacts/            # HR contacts web part
-│   ├── productsLandingSearch/ # Product search web part
-│   ├── productsListFilter/    # Product list web part
-│   ├── productDetail/         # Product detail web part
+│   ├── productsLandingSearch/ # Products & Services with detail view
 │   ├── toolsDirectory/        # Tools directory web part
 │   └── newsArchive/           # News archive web part
 └── common/

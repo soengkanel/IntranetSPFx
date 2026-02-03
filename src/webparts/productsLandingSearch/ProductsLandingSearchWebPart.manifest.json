@@ -11,9 +11,13 @@
   "preconfiguredEntries": [{
     "groupId": "40b93244-cf84-4e5c-8f22-5b1a89fb3c7e",
     "group": { "default": "REDBRIDGE" },
-    "title": { "default": "Products Landing Search" },
-    "description": { "default": "Product search interface" },
-    "officeFabricIconFontName": "Search",
-    "properties": { "title": "Find Products", "searchPlaceholder": "Search products..." }
+    "title": { "default": "Products & Services" },
+    "description": { "default": "Retail banking products and services with smart search" },
+    "officeFabricIconFontName": "ProductCatalog",
+    "properties": {
+      "title": "RETAIL BANKING OFFERS",
+      "searchPlaceholder": "Type here to get results in seconds..",
+      "listName": "Products and Services"
+    }
   }]
 }

@@ -32,12 +32,6 @@
     "products-landing-search-web-part": {
       "components": [{ "entrypoint": "./lib/webparts/productsLandingSearch/ProductsLandingSearchWebPart.js", "manifest": "./src/webparts/productsLandingSearch/ProductsLandingSearchWebPart.manifest.json" }]
     },
-    "products-list-filter-web-part": {
-      "components": [{ "entrypoint": "./lib/webparts/productsListFilter/ProductsListFilterWebPart.js", "manifest": "./src/webparts/productsListFilter/ProductsListFilterWebPart.manifest.json" }]
-    },
-    "product-detail-web-part": {
-      "components": [{ "entrypoint": "./lib/webparts/productDetail/ProductDetailWebPart.js", "manifest": "./src/webparts/productDetail/ProductDetailWebPart.manifest.json" }]
-    },
     "tools-directory-web-part": {
       "components": [{ "entrypoint": "./lib/webparts/toolsDirectory/ToolsDirectoryWebPart.js", "manifest": "./src/webparts/toolsDirectory/ToolsDirectoryWebPart.manifest.json" }]
     },
@@ -57,8 +51,6 @@
     "HrQuickLinksWebPartStrings": "lib/webparts/hrQuickLinks/loc/{locale}.js",
     "HrContactsWebPartStrings": "lib/webparts/hrContacts/loc/{locale}.js",
     "ProductsLandingSearchWebPartStrings": "lib/webparts/productsLandingSearch/loc/{locale}.js",
-    "ProductsListFilterWebPartStrings": "lib/webparts/productsListFilter/loc/{locale}.js",
-    "ProductDetailWebPartStrings": "lib/webparts/productDetail/loc/{locale}.js",
     "ToolsDirectoryWebPartStrings": "lib/webparts/toolsDirectory/loc/{locale}.js",
     "NewsArchiveWebPartStrings": "lib/webparts/newsArchive/loc/{locale}.js"
   }
